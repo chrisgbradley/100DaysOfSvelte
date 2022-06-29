@@ -12,7 +12,7 @@
       path: $page.url.pathname,
       params: $page.params,
       analyticsId
-    })
+    });
   }
 </script>
 
