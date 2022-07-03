@@ -3,122 +3,64 @@
   import logo from './svelte-logo.svg';
 </script>
 
-<header>
-  <div class="corner">
-    <a href="https://kit.svelte.dev">
-      <img src={logo} alt="SvelteKit" />
-    </a>
-  </div>
+<header class="container max-w-7xl mx-auto p-6">
+  <nav class="flex flex-row items-center justify-between">
 
-  <nav>
-    <svg viewBox="0 0 2 3" aria-hidden="true">
-      <path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-    </svg>
-    <ul>
-      <li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-      <li class:active={$page.url.pathname === '/about'}>
+    <div class=" h-full">
+      <a href="https://kit.svelte.dev">
+        <h1 class="text-xl md:text-2xl font-black text-white dark:text-gray inline"><span class="text-orange">100</span> Days of <span class="text-orange">Svelte</span></h1>
+      </a>
+    </div>
+
+    <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+    </button>
+
+    <ul id="mobile-menu" class="text-lg hidden sm:flex sm:items-center">
+      <li class="text-center w-32 h-full active:text-orange" class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
+      <li class="text-center w-32 h-full active:text-orange" class:active={$page.url.pathname === '/about'}>
         <a sveltekit:prefetch href="/about">About</a>
       </li>
-      <li class:active={$page.url.pathname === '/todos'}>
-        <a sveltekit:prefetch href="/todos">Todos</a>
+      <li class="text-center w-32 h-full active:text-orange" class:active={$page.url.pathname === '/contact'}>
+        <a sveltekit:prefetch href="/contact">Contact Me</a>
       </li>
     </ul>
-    <svg viewBox="0 0 2 3" aria-hidden="true">
-      <path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-    </svg>
   </nav>
-
-  <div class="corner">
-    <!-- TODO put something else here? github link? -->
-  </div>
 </header>
 
 <style>
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .corner {
-    width: 3em;
-    height: 3em;
-  }
-
-  .corner a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-  }
-
-  .corner img {
-    width: 2em;
-    height: 2em;
-    object-fit: contain;
-  }
-
-  nav {
-    display: flex;
-    justify-content: center;
-    --background: rgba(255, 255, 255, 0.7);
-  }
-
-  svg {
-    width: 2em;
-    height: 3em;
+  #mobile-menu a {
     display: block;
-  }
-
-  path {
-    fill: var(--background);
-  }
-
-  ul {
     position: relative;
-    padding: 0;
-    margin: 0;
-    height: 3em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    background: var(--background);
-    background-size: contain;
+    padding: 0.2em 0;
+	  overflow: hidden;
+    transition: color 150ms, transform 150ms;
   }
 
-  li {
-    position: relative;
-    height: 100%;
-  }
-
-  li.active::before {
-    --size: 6px;
+  #mobile-menu a::after {
     content: '';
-    width: 0;
-    height: 0;
     position: absolute;
-    top: 0;
-    left: calc(50% - var(--size));
-    border: var(--size) solid transparent;
-    border-top: var(--size) solid var(--accent-color);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: #FC4837;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+    opacity: 1;
+    transform: translate3d(-100%, 0, 0);
   }
 
-  nav a {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    padding: 0 1em;
-    color: var(--heading-color);
-    font-weight: 700;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    text-decoration: none;
-    transition: color 0.2s linear;
+  #mobile-menu a:hover::after,
+  #mobile-menu a:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
   }
 
-  a:hover {
-    color: var(--accent-color);
+  #mobile-menu a:hover::after,
+  #mobile-menu a:focus::after{
+    transform: translate3d(0, 0, 0);
   }
 </style>

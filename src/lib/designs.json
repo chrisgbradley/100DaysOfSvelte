@@ -1,0 +1,31 @@
+{
+    "weeks":[
+        {
+            "index":1,
+            "designs": [
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}}]
+        },
+        {
+            "index":2,
+            "designs": [
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}}]
+        },
+        {
+            "index":3,
+            "designs": [
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}},
+                {"thumbnail": {"type": "text", "content": "TBA"}}]
+        }
+    ]
+}
