@@ -28,10 +28,10 @@
 <body class="flex flex-col min-h-screen bg-gray-dark text-white font-sans">
   <BackgroundArt />
 
-  <div id="content" class="w-full">
+  <div id="content" class="flex flex-col min-h-screen">
     <Header />
   
-    <main>
+    <main class="">
       <slot />
     </main>
   
