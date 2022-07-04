@@ -35,10 +35,13 @@
         
         <!-- Design Card -->
         {#each week.designs as design}
-          <div class="text-orange border-gray-dark border-solid border-2 flex items-center justify-center bg-white h-[200px] w-1/2 sm:w-1/3 lg:h-[250px] xl:w-1/6 xl:h-[175px] 2xl:h-[200px] md:rounded hover:text-white hover:bg-orange hover:bg-opacity-50 transition-all ease-in-out duration-150">
+          <div class="text-orange border-gray-dark border-solid border-2 flex flex-col items-center justify-center gap-16 bg-white h-[200px] w-1/2 sm:w-1/3 lg:h-[250px] xl:w-1/6 xl:h-[175px] 2xl:h-[200px] md:rounded hover:text-white hover:bg-orange hover:bg-opacity-50 transition-all ease-in-out duration-150">
 
             {#if design.thumbnail.type === "text"}
-              <h4 class=" font-bold text-xl text-center block">{design.thumbnail.content}</h4>
+              <h4 class=" font-bold text-2xl text-center block">Day {design.thumbnail.index + ((week.index - 1) * 5)}</h4>
+              {#if design.thumbnail.challenge !== ""}
+                <h5 class=" font-bold text-lg text-center block">{design.thumbnail.challenge}</h5>
+              {/if}
             {/if}
 
           </div>
