@@ -16,7 +16,7 @@
 
 <svelte:head>
   <title>About</title>
-  <meta name="description" content="About this app" />
+  <meta name="description" content="What is 100 Days of Svelte and why should you do it too?" />
 </svelte:head>
 
 <section class="container flex flex-grow max-w-7xl mx-auto">
@@ -26,7 +26,11 @@
     <h3 class="text-2xl font-semibold pt-8 lg:max-w-3xl leading-loose">A personal challenge to encourage rapid <span class="text-orange font-mono">prototyping</span>, better <span class="text-orange font-mono">UI design</span> skills, and practice <span class="text-orange font-mono">developing experiences</span>.</h3>
     <h4 class="font-bold text-xl pt-20">The Longer Version</h4>
     <p class="text-lg font-normal pt-8 lg:max-w-4xl leading-loose">
-      I decided to take the 100 Days of Design from <a href="https://www.dailyui.co">DailyUI</a> and push it one step further. Rotating through 10 popular industries, each day a design is crafted to spec for the given prompt, then converted to html/css/js and uploaded as a page here. All pages should act independently of each other and should be fully functioning up until an actual payment or redirection is requested. All logos will simply reload page. All links will reload the page, unless there is a useful link that can be established. 
+      I decided to take the 100 Days of Design from <a class="link text-orange underline" href="https://www.dailyui.co">DailyUI</a> and push it one step further. Rotating through 10 popular industries, each day a design is crafted to spec for the given prompt, then converted to HTML, CSS, & JS and uploaded as a page here. All pages should act independently of each other and should be fully functioning up until an actual payment or redirection is requested. All logos will simply reload page. All links will reload the page, unless there is a useful link that can be established. 
+    </p>
+    <h4 class="font-bold text-xl pt-20">The Why</h4>
+    <p class="text-lg font-normal pt-8 lg:max-w-4xl leading-loose">
+      My biggest goal from all of this is to become a better designer and developer. I would like to get better at shooting for perfection <span class="text-orange font-semibold">inside of a deadline</span>. Additionally, one of the greatest issues I have had in the past 8 years is finding inspiration for projects. I'm always either consistently too busy with family, school, or work or I scope far to large for a project and didn't have the passion for the project to start with.
     </p>
     <h4 class="font-bold text-xl pt-20">The Resources</h4>
     <div class="flex flex-row align-top">
@@ -61,5 +65,32 @@
                   1px  1px 0 #D2D0CF,
                   1px -1px 0 #D2D0CF,
                  -1px -1px 0 #D2D0CF;
+  }
+
+  .link {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    text-decoration: none;
+    transition: all ease-in 150ms;
+  }
+
+  .link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: #FC4837;
+    border-radius: 3px;
+    transition: all ease-in 150ms;
+  }
+  .link:hover {
+    color:#D2D0CF;
+  }
+
+  .link:hover::after {
+    background-color:#D2D0CF;
   }
 </style>

@@ -24,7 +24,7 @@
         <a sveltekit:prefetch href="/about">About</a>
       </li>
       <li class="text-center w-32 h-full active:text-orange" class:active={$page.url.pathname === '/contact'}>
-        <a sveltekit:prefetch href="/">Contact Me</a>
+        <a sveltekit:prefetch href="/contact">Contact Me</a>
       </li>
     </ul>
   </nav>

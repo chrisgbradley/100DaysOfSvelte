@@ -35,7 +35,7 @@
         
         <!-- Design Card -->
         {#each week.designs as design}
-          <div class="text-orange border-gray-dark border-solid border-2 flex flex-col items-center justify-center gap-16 bg-white h-[200px] w-1/2 sm:w-1/3 lg:h-[250px] xl:w-1/6 xl:h-[175px] 2xl:h-[200px] md:rounded hover:text-white hover:bg-orange hover:bg-opacity-50 transition-all ease-in-out duration-150">
+          <div class="text-orange border-gray-dark border-solid border-2 flex flex-col items-center justify-center gap-16 bg-white bg-opacity-10 h-[200px] w-1/2 sm:w-1/3 lg:h-[250px] xl:w-1/6 xl:h-[175px] 2xl:h-[200px] md:rounded hover:text-white hover:bg-orange hover:bg-opacity-50 transition-all ease-in-out duration-150">
 
             {#if design.thumbnail.type === "text"}
               <h4 class=" font-bold text-2xl text-center block">Day {design.thumbnail.index + ((week.index - 1) * 5)}</h4>
