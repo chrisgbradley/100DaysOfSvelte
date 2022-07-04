@@ -35,10 +35,10 @@
         
         <!-- Design Card -->
         {#each week.designs as design}
-          <div class="border-gray-dark border-solid border-2 flex items-center justify-center bg-white h-[200px] w-1/2 sm:w-1/3 lg:h-[250px] xl:w-1/6 xl:h-[175px] 2xl:h-[200px] md:rounded">
+          <div class="text-orange border-gray-dark border-solid border-2 flex items-center justify-center bg-white h-[200px] w-1/2 sm:w-1/3 lg:h-[250px] xl:w-1/6 xl:h-[175px] 2xl:h-[200px] md:rounded hover:text-white hover:bg-orange hover:bg-opacity-50 transition-all ease-in-out duration-150">
 
             {#if design.thumbnail.type === "text"}
-              <h4 class="text-orange font-bold text-xl text-center block">{design.thumbnail.content}</h4>
+              <h4 class=" font-bold text-xl text-center block">{design.thumbnail.content}</h4>
             {/if}
 
           </div>

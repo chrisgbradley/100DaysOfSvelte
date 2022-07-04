@@ -1,6 +1,7 @@
 <script>
   import Header from '$lib/header/Header.svelte';
   import Footer from '$lib/footer/Footer.svelte';
+  import BackgroundArt from '$lib/backgroundart/BackgroundArt.svelte';
   import { webVitals } from '$lib/vitals';
   import { browser } from '$app/env';
   import { page } from '$app/stores';
@@ -25,26 +26,21 @@
 
 
 <body class="flex flex-col min-h-screen bg-gray-dark text-white font-sans">
-  <div id="art">
+  <BackgroundArt />
+
+  <div id="content" class="w-full">
+    <Header />
+  
+    <main>
+      <slot />
+    </main>
+  
+    <Footer />
   </div>
-
-  <Header />
-
-  <main>
-    <slot />
-  </main>
-
-  <Footer />
 </body>
 
 <style>
-  #art {
-    position:absolute;
-    height: 1560px;
-    width: 150%;
-    overflow: hidden;
-    background-image: url('line-art.svg'),
-    url('blob-art.svg');
-    background-repeat: no-repeat;
+  #content {
+    z-index: 5;
   }
 </style>

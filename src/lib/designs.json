@@ -3,29 +3,29 @@
         {
             "index":1,
             "designs": [
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}}]
+                {"thumbnail": {"type": "text", "content": "Day 1"}},
+                {"thumbnail": {"type": "text", "content": "Day 2"}},
+                {"thumbnail": {"type": "text", "content": "Day 3"}},
+                {"thumbnail": {"type": "text", "content": "Day 4"}},
+                {"thumbnail": {"type": "text", "content": "Day 5"}}]
         },
         {
             "index":2,
             "designs": [
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}}]
+                {"thumbnail": {"type": "text", "content": "Day 1"}},
+                {"thumbnail": {"type": "text", "content": "Day 2"}},
+                {"thumbnail": {"type": "text", "content": "Day 3"}},
+                {"thumbnail": {"type": "text", "content": "Day 4"}},
+                {"thumbnail": {"type": "text", "content": "Day 5"}}]
         },
         {
             "index":3,
             "designs": [
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}},
-                {"thumbnail": {"type": "text", "content": "TBA"}}]
+                {"thumbnail": {"type": "text", "content": "Day 1"}},
+                {"thumbnail": {"type": "text", "content": "Day 2"}},
+                {"thumbnail": {"type": "text", "content": "Day 3"}},
+                {"thumbnail": {"type": "text", "content": "Day 4"}},
+                {"thumbnail": {"type": "text", "content": "Day 5"}}]
         }
     ]
 }
