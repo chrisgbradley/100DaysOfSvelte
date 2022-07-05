@@ -18,7 +18,7 @@
   }
 
   
-  let isMenuOpen = true;
+  let isMenuOpen = false;
 </script>
 
 <svelte:head>
