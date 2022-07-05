@@ -27,7 +27,7 @@
       <span aria-hidden="true" class="burger-line" class:-rotate-4={isMenuOpen} class:translate-y-1.5={!isMenuOpen}></span>
     </button>
 
-    <ul id="mobile-menu" class="fixed w-[100vw] h-[100vh] top-0 right-0 text-lg flex flex-col justify-center items-center z-10 bg-white sm:flex-row sm:relative sm:w-auto sm:h-auto sm:bg-opacity-0" class:hidden={!isMenuOpen && !smscr}>
+    <ul id="mobile-menu" class="fixed w-[100vw] h-[100vh] top-0 right-0 text-lg flex flex-col justify-center items-center z-10 bg-white sm:flex-row sm:flex sm:relative sm:w-auto sm:h-auto sm:bg-opacity-0" class:hidden={!isMenuOpen && !smscr}>
       <li class="text-center w-28 text-orange active:text-white text-2xl font-bold sm:text-white sm:text-lg sm:font-normal sm:active:text-orange flex justify-center items-center py-8 sm:py-0" class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a>
       </li>
       <li class="text-center w-28 text-orange active:text-white text-2xl font-bold sm:text-white sm:text-lg sm:font-normal sm:active:text-orange flex justify-center items-center py-8 sm:py-0" class:active={$page.url.pathname === '/about'}>

@@ -17,7 +17,6 @@
     });
   }
 
-  
   let isMenuOpen = false;
 </script>
 
