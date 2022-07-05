@@ -14,7 +14,7 @@
 </svelte:head>
 
 <section class="container max-w-7xl p-6 mx-auto">
-  <div class="lg:w-4/5 mx-auto flex flex-col items-left sm:py-32 md:py-48 lg:py-64 lg:flex-row lg:items-center lg:justify-between">
+  <div class="lg:w-4/5 mx-auto flex flex-col items-left pl-8 sm:py-32 sm:pl-16 lg:pl-0 md:py-48 lg:py-64 lg:flex-row lg:items-center lg:justify-between">
     <h1 class="pt-24 sm:pt-0 text-6xl lg:text-6xl xl:text-7xl 2xl:text-7xl 2xl:w-full"><span class="outline-text">100 Days</span><br><span class="leading-loose font-handwriting">Design</span> <span class="sm:hidden"><br/></span>+ <span class="font-mono font-bold text-orange">Code</span></h1>
     <p class=" leading-loose pt-24 font-light text-xl sm:text-xl sm:leading-loose md:pt-32 lg:pl-16 lg:text-2xl lg:leading-loose lg:pt-0 lg:pr-16 2xl:leading-extra-loose 2xl:text-3xl 2xl:w-[75%]">
       Prompted by <span class="text-orange font-black">DAILYUI</span><br/>
