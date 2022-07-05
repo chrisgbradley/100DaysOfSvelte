@@ -17,7 +17,8 @@
     });
   }
 
-  let isMenuOpen = false;
+  let isMenuOpen = true
+
 </script>
 
 <svelte:head>
