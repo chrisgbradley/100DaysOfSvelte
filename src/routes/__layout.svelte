@@ -16,6 +16,9 @@
       analyticsId
     });
   }
+
+  
+  let isMenuOpen = true;
 </script>
 
 <svelte:head>
@@ -29,18 +32,25 @@
   <BackgroundArt />
 
   <div id="content" class="flex flex-col min-h-screen">
-    <Header />
+    <Header bind:isMenuOpen={isMenuOpen} />
   
-    <main class="">
+    <main class=""  class:menu-open={isMenuOpen}>
       <slot />
     </main>
   
-    <Footer />
+    <Footer bind:isMenuOpen={isMenuOpen} />
   </div>
 </body>
 
 <style>
   #content {
     z-index: 5;
+  }
+  
+  .menu-open {
+  }
+
+  main.menu-open {
+
   }
 </style>

@@ -17,7 +17,11 @@ const config = {
       lineHeight: {
         'extra-loose': '2.5',
         '12': '3rem',
-      }
+      },
+      aspectRatio: {
+        '4/3': '4 / 3',
+        '16/9': '16 / 9'
+      },
     }
   },
 
