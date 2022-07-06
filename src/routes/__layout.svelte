@@ -27,7 +27,7 @@
 </svelte:head>
 
 
-<body class="flex flex-col min-h-screen bg-gray-dark text-white font-sans">
+<body class="flex flex-col min-h-screen bg-gray-dark text-white font-sans min-w-[400px]">
   <BackgroundArt />
 
   <div id="content" class="flex flex-col min-h-screen">
@@ -46,13 +46,6 @@
 
   #content {
     z-index: 5;
-  }
-  
-  .menu-open {
-  }
-
-  main.menu-open {
-
   }
   
 </style>
