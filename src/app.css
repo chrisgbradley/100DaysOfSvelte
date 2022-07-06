@@ -7,18 +7,3 @@
 @tailwind components;
 
 @tailwind utilities;
-
-
-@layer components {
-    .burger-line {
-        @apply h-0.5 w-8 my-0.5 rounded-full bg-orange transition ease-in-out transform duration-300;
-    }
-
-    .cast-translate-burgerline {
-        @apply translate-y-1.5;
-    }
-
-    .cast-translate-burgerline-neg {
-        @apply -translate-y-1.5;
-    }
-}

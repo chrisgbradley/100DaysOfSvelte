@@ -22,9 +22,9 @@
 
     <button id="menu-toggle" type="button" class="flex items-center self-end sm:hidden flex-col justify-center p-8 z-20" aria-controls="mobile-menu" aria-expanded="false" on:click="{() => isMenuOpen = !isMenuOpen}" class:menu-btn-fix={isMenuOpen}>
       <span class="sr-only">Open main menu</span>
-      <span aria-hidden="true" class="burger-line" class:rotate-45={isMenuOpen} class:translate-y-1.5={isMenuOpen} class:-translate-y-1.5={!isMenuOpen}></span>
-      <span aria-hidden="true" class="burger-line" class:opacity-0={isMenuOpen}></span>
-      <span aria-hidden="true" class="burger-line" class:-rotate-45={isMenuOpen} class:-translate-y-1.5={isMenuOpen} class:translate-y-1.5={!isMenuOpen}></span>
+      <span aria-hidden="true" class="h-0.5 w-8 my-0.5 rounded-full bg-orange transition ease-in-out transform duration-300" class:rotate-45={isMenuOpen} class:translate-y-1.5={isMenuOpen} class:-translate-y-1.5={!isMenuOpen}></span>
+      <span aria-hidden="true" class="h-0.5 w-8 my-0.5 rounded-full bg-orange transition ease-in-out transform duration-300" class:opacity-0={isMenuOpen}></span>
+      <span aria-hidden="true" class="h-0.5 w-8 my-0.5 rounded-full bg-orange transition ease-in-out transform duration-300" class:-rotate-45={isMenuOpen} class:-translate-y-1.5={isMenuOpen} class:translate-y-1.5={!isMenuOpen}></span>
     </button>
 
     <ul id="mobile-menu" class="fixed w-[100vw] h-[100vh] top-0 text-lg flex flex-col justify-center items-center z-10 bg-white sm:flex-row sm:flex sm:relative sm:w-auto sm:h-auto sm:bg-opacity-0" class:hidden={!isMenuOpen && !smscr}>
