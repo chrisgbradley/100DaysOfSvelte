@@ -1,10 +1,13 @@
 <script>
-  import Header from '$lib/header/Header.svelte';
-  import Footer from '$lib/footer/Footer.svelte';
-  import BackgroundArt from '$lib/backgroundart/BackgroundArt.svelte';
-  import { webVitals } from '$lib/vitals';
   import { browser } from '$app/env';
   import { page } from '$app/stores';
+  
+  import { webVitals } from '$lib/vitals';
+
+  import Header from '$components/header/Header.svelte';
+  import Footer from '$components/footer/Footer.svelte';
+  import BackgroundArt from '$components/background/Background.svelte';
+
 
   let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
 
@@ -22,8 +25,8 @@
 
 <svelte:head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;700&family=Overpass:wght@400;600;900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=true>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;700&family=Overpass:wght@400;600;900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </svelte:head>
 
 
