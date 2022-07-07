@@ -80,8 +80,4 @@
     right:0;
     top:0;
   }
-
-  header.menu-open {
-
-  }
 </style>
