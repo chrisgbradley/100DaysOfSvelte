@@ -51,11 +51,5 @@
 </section>
 
 <style>
-  .outline-text {
-    color: #D2D0CF;
-    text-shadow: -1px  1px 3px #0A0A0A,
-                  1px  1px 3px #0A0A0A,
-                  1px -1px 3px #0A0A0A,
-                 -1px -1px 3px #0A0A0A;
-  }
+  
 </style>
