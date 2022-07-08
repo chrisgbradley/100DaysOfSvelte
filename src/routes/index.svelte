@@ -2,10 +2,8 @@
   export const prerender = true;
 </script>
 
-<script>
+<script lang="ts">
   import {weeks} from "$lib/designs.json";
-
-
 </script>
 
 <svelte:head>
@@ -54,10 +52,10 @@
 
 <style>
   .outline-text {
-    color: #1e1e1e;
-    text-shadow: -1px  1px 0 #D2D0CF,
-                  1px  1px 0 #D2D0CF,
-                  1px -1px 0 #D2D0CF,
-                 -1px -1px 0 #D2D0CF;
+    color: #D2D0CF;
+    text-shadow: -1px  1px 3px #0A0A0A,
+                  1px  1px 3px #0A0A0A,
+                  1px -1px 3px #0A0A0A,
+                 -1px -1px 3px #0A0A0A;
   }
 </style>

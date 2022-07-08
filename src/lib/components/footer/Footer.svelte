@@ -10,7 +10,5 @@
 </footer>
 
 <style>
-    footer.menu-open {
-
-    }
+    
 </style>

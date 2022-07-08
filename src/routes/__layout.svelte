@@ -1,12 +1,19 @@
+<script context="module">
+  export const load = async ({ url }) => ({ props: { refresh: url } });
+</script>
+
 <script>
+  import { ThemeWrapper, ThemeToggle } from 'svelte-themer';
+
   import { browser } from '$app/env';
   import { page } from '$app/stores';
   
   import { webVitals } from '$lib/vitals';
 
-  import Header from '$components/header/Header.svelte';
-  import Footer from '$components/footer/Footer.svelte';
-  import BackgroundArt from '$components/background/Background.svelte';
+  import PageTransition from '$cmp/pagetransition/PageTransition.svelte';
+  import Header from '$cmp/header/Header.svelte';
+  import Footer from '$cmp/footer/Footer.svelte';
+  import Background from '$cmp/background/Background.svelte';
 
 
   let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
@@ -20,8 +27,9 @@
   }
 
   let isMenuOpen = false
-
+  export let refresh;
 </script>
+
 
 <svelte:head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,20 +37,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;700&family=Overpass:wght@400;600;900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </svelte:head>
 
+<!-- <Background /> -->
 
-<body class="flex flex-col min-h-screen bg-gray-dark text-white font-sans min-w-[400px]">
-  <BackgroundArt />
-
-  <div id="content" class="flex flex-col min-h-screen">
-    <Header bind:isMenuOpen={isMenuOpen} />
+<div id="content" class="relative flex flex-col min-h-screen bg-gray-dark text-white font-sans min-w-[400px]">
+  <Header bind:isMenuOpen={isMenuOpen} />
   
-    <main class=""  class:menu-open={isMenuOpen}>
-      <slot />
+    <main class="" class:overflow-x-hidden={refresh}  class:menu-open={isMenuOpen}>
+      <PageTransition {refresh}>
+        <slot />
+      </PageTransition>
     </main>
   
-    <Footer bind:isMenuOpen={isMenuOpen} />
-  </div>
-</body>
+  <Footer bind:isMenuOpen={isMenuOpen} />
+</div>
 
 <style>
   @import '../app.css';
@@ -50,5 +57,4 @@
   #content {
     z-index: 5;
   }
-  
 </style>

@@ -75,13 +75,6 @@
 </section>
 
 <style>
-  .outline-text {
-    color: #1e1e1e;
-    text-shadow: -1px  1px 0 #D2D0CF,
-                  1px  1px 0 #D2D0CF,
-                  1px -1px 0 #D2D0CF,
-                 -1px -1px 0 #D2D0CF;
-  }
 
   .link {
     display: inline-block;

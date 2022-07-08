@@ -1,6 +1,8 @@
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-auto';
 
+import path from 'path';
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
@@ -17,6 +19,13 @@ const config = {
       ssr: {
         noExternal: ["svelte-hero-icons"],
       },
+      resolve: {
+        alias: {
+          $src: path.resolve('src/'),
+          $lib: path.resolve('src/lib/'),
+          $cmp: path.resolve('src/lib/components/'),
+        }
+      }
     }
   },
 

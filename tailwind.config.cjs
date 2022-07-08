@@ -3,8 +3,8 @@ const config = {
   darkMode: 'class',
   theme: {
     colors: {
-      'gray-dark': '#0A0A0A',
-      'white': '#D2D0CF',
+      'gray-dark': '#D2D0CF',
+      'white': '#0A0A0A',
       'orange': '#FC4837'
     },
     fontFamily: {

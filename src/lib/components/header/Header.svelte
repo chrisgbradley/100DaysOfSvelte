@@ -1,6 +1,5 @@
 <script lang="ts">
   import { page } from '$app/stores';
-  import logo from './svelte-logo.svg';
 
   $: innerWidth = 0
   // $: open = true;
@@ -8,6 +7,7 @@
   let smscr: boolean = innerWidth < 640
 
   export let isMenuOpen = false;
+  
 </script>
 
 <svelte:window bind:innerWidth />
