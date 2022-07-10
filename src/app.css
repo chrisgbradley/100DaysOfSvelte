@@ -8,10 +8,38 @@
 
 @tailwind utilities;
 
+
+@layer base {
+    [data-theme='dark'] {
+        --color-primary: 10, 10, 10;
+        --color-secondary: 210, 208, 207;
+        --color-accent: 252, 72, 55;
+    }
+
+    [data-theme='light'] {
+        --color-primary: 250, 248, 247;
+        --color-secondary: 10, 10, 10;
+        --color-accent: 252, 72, 55;
+    }
+
+    [data-theme='ocean'] {
+        --color-primary: 230, 245, 251;
+        --color-secondary: 35, 35, 36;
+        --color-accent: 31, 97, 120;
+    }
+
+    [data-theme='forest'] {
+        --color-primary: 247, 248, 248;
+        --color-secondary: 42, 41, 39;
+        --color-accent: 23, 152, 55;
+    }
+
+}
+
 .outline-text {
-    color: #0A0A0A;
-    text-shadow: -1px  1px 1px #D2D0CF,
-                  1px  1px 1px #D2D0CF,
-                  1px -1px 1px #D2D0CF,
-                 -1px -1px 1px #D2D0CF;
-  }
+    color: rgb(var(--color-primary));
+    text-shadow:    -1px  1px 3px rgb(var(--color-secondary)),
+                     1px  1px 3px rgb(var(--color-secondary)),
+                     1px -1px 3px rgb(var(--color-secondary)),
+                    -1px -1px 3px rgb(var(--color-secondary));
+}

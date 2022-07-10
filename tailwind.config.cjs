@@ -1,11 +1,17 @@
+function withOpacity(cssVariable) {
+  return ({ opacityValue }) => {
+    return opacityValue ? `rgba(var(${cssVariable}), ${opacityValue})` : `rgb(var(${cssVariable}))`
+  }
+}
+
 const config = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   darkMode: 'class',
   theme: {
     colors: {
-      'gray-dark': '#0A0A0A',
-      'white': '#D2D0CF',
-      'orange': '#FC4837'
+      'primary': withOpacity('--color-primary'), // 10, 10, 10
+      'secondary': withOpacity('--color-secondary'), // 210, 208, 207
+      'accent': withOpacity('--color-accent') // 252, 72, 55
     },
     fontFamily: {
       sans: ['Overpass', 'sans-serif'],

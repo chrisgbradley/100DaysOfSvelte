@@ -13,11 +13,11 @@
 
 <section class="container max-w-7xl p-6 mx-auto">
   <div class="lg:w-4/5 mx-auto flex flex-col items-left sm:py-32 md:py-48 lg:py-64 lg:flex-row lg:items-center lg:justify-between">
-    <h1 class="pt-24 sm:pt-0 text-6xl lg:text-6xl xl:text-7xl 2xl:text-7xl 2xl:w-full"><span class="outline-text">100 Days</span><br><span class="leading-loose font-handwriting">Design</span> <span class="sm:hidden"><br/></span>+ <span class="font-mono font-bold text-orange">Code</span></h1>
+    <h1 class="pt-24 sm:pt-0 text-6xl lg:text-6xl xl:text-7xl 2xl:text-7xl 2xl:w-full"><span class="outline-text font-black text-8xl">100 Days</span><br><span class="leading-loose font-handwriting">Design</span> <span class="sm:hidden"><br/></span>+ <span class="font-mono font-bold text-accent">Code</span></h1>
     <p class=" leading-loose pt-24 font-light text-xl sm:text-xl sm:leading-loose md:pt-32 lg:pl-16 lg:text-2xl lg:leading-loose lg:pt-0 lg:pr-16 2xl:leading-extra-loose 2xl:text-3xl 2xl:w-[75%]">
-      Prompted by <span class="text-orange font-black">DAILYUI</span><br/>
-      Built with <span class="text-orange font-black">SVELTE</span><br/>
-      Fueled by <span class="text-orange font-black">TOO MUCH COFFEE</span>
+      Prompted by <span class="text-accent font-black">DAILYUI</span><br/>
+      Built with <span class="text-accent font-black">SVELTE</span><br/>
+      Fueled by <span class="text-accent font-black">TOO MUCH COFFEE</span>
     </p>
   </div>
 </section>
@@ -27,13 +27,13 @@
     {#each weeks as week}
       <div class="w-full flex items-center flex-wrap justify-center">
         <!-- Week Number -->
-        <div class="border-gray-dark border-solid border-2 flex items-center justify-center h-[200px] w-1/2 sm:w-1/3 lg:h-[250px] xl:w-1/6 xl:h-[175px] 2xl:h-[200px] md:rounded">
-          <h2 class="text-orange text-center font-mono block"><span class="text-2xl">Week</span><br/><span class="text-4xl">{week.index}</span></h2>
+        <div class="border-primary border-solid border-2 flex items-center justify-center h-[200px] w-1/2 sm:w-1/3 lg:h-[250px] xl:w-1/6 xl:h-[175px] 2xl:h-[200px] md:rounded">
+          <h2 class="text-accent text-center font-mono block"><span class="text-2xl">Week</span><br/><span class="text-4xl">{week.index}</span></h2>
         </div>
         
         <!-- Design Card -->
         {#each week.designs as design}
-          <div class="text-orange border-gray-dark border-solid border-2 flex flex-col items-center justify-center gap-16 bg-white bg-opacity-10 h-[200px] w-1/2 sm:w-1/3 lg:h-[250px] xl:w-1/6 xl:h-[175px] 2xl:h-[200px] md:rounded hover:text-white hover:bg-orange hover:bg-opacity-50 transition-all ease-in-out duration-150">
+          <div class="text-accent border-primary border-solid border-2 flex flex-col items-center justify-center gap-16 bg-secondary bg-opacity-10 h-[200px] w-1/2 sm:w-1/3 lg:h-[250px] xl:w-1/6 xl:h-[175px] 2xl:h-[200px] md:rounded hover:text-secondary hover:bg-accent hover:bg-opacity-50 transition-all ease-in-out duration-150">
 
             {#if design.thumbnail.type === "text"}
               <h4 class=" font-bold text-2xl text-center block">Day {design.thumbnail.index + ((week.index - 1) * 5)}</h4>
