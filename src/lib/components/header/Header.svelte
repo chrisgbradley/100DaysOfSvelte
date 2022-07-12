@@ -109,13 +109,13 @@
 
       <div class=" justify-center items-center gap-3 pb-2 hidden lg:flex">
         <a href="https://github.com/chrisgbradley" class="">
-          <Icon icon="mdi:github" style="font-size: 2.25rem;" inline={true} />
+          <Icon icon="mdi:github" style="font-size: 2.25rem;" inline={true} class="text-accent" />
         </a>
         <a href="https://www.linkedin.com/in/christianbradley/" class="">
-          <Icon icon="mdi:linkedin" style="font-size: 2.25rem;" inline={true} />
+          <Icon icon="mdi:linkedin" style="font-size: 2.25rem;" inline={true} class="text-accent" />
         </a>
         <a href="https://dribbble.com/chrisgbradley" class="">
-          <Icon icon="mdi:dribbble" style="font-size: 2.25rem;" inline={true} />
+          <Icon icon="mdi:dribbble" style="font-size: 2.25rem;" inline={true} class="text-accent" />
         </a>
       </div>
       
