@@ -193,6 +193,11 @@
   "resolved" "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz"
   "version" "2.2.5"
 
+"@iconify/svelte@^2.2.1":
+  "integrity" "sha512-eWZq8CRrr3WfnKAj8SWknfE3S/d+j/AzEcypeJaHurS1s4zTdFnkjATcFa8lerGtcX0PAtXiVL94tbIEd69N+w=="
+  "resolved" "https://registry.npmjs.org/@iconify/svelte/-/svelte-2.2.1.tgz"
+  "version" "2.2.1"
+
 "@jridgewell/gen-mapping@^0.1.0":
   "integrity" "sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w=="
   "resolved" "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz"

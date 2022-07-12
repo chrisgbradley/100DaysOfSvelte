@@ -22,8 +22,8 @@
 <section class="container flex flex-grow max-w-7xl mx-auto">
   <div class="wrapper w-full px-8">
     <h1 class="text-6xl outline-text py-16">About</h1>
-    <h2 class="text-4xl font-bold">What is <span class="text-orange">100</span> Days of <span class="text-orange">Svelte</span>?</h2>
-    <h3 class="text-2xl font-semibold pt-8 lg:max-w-3xl leading-loose">A personal challenge to encourage rapid <span class="text-orange font-mono">prototyping</span>, better <span class="text-orange font-mono">UI design</span> skills, and practice <span class="text-orange font-mono">developing experiences</span>.</h3>
+    <h2 class="text-4xl font-bold">What is <span class="text-accent">100</span> Days of <span class="text-accent">Svelte</span>?</h2>
+    <h3 class="text-2xl font-semibold pt-8 lg:max-w-3xl leading-loose">A personal challenge to encourage rapid <span class="text-accent font-mono">prototyping</span>, better <span class="text-accent font-mono">UI design</span> skills, and practice <span class="text-accent font-mono">developing experiences</span>.</h3>
     <h4 class="font-bold text-xl pt-20">The Longer Version</h4>
     <p class="text-lg font-normal pt-8 lg:max-w-4xl leading-loose">
       I decided to take the 100 Days of Design from <a class="link " href="https://www.dailyui.co">DailyUI</a> and push it one step further. Rotating through 10 popular industries, each day a design is crafted to spec for the given prompt, developed using Svelte, and hosted -- currently on Vercel.

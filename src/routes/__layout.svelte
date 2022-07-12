@@ -58,4 +58,11 @@ import ThemeProvider from '$cmp/theme/ThemeProvider.svelte';
   #content {
     z-index: 5;
   }
+  main {
+    transition: all ease-in 300ms;
+  }
+
+  main.menu-open {
+    transform: translateX(-300px);
+  }
 </style>
