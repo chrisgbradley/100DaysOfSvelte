@@ -39,7 +39,7 @@
         </h1>
       </a>
     </div>
-    <div class="flex flex-row-reverse lg:flex-row gap-4">
+    <div class="flex flex-row-reverse items-center lg:flex-row gap-4">
 
       <button
         id="menu-toggle"
@@ -74,7 +74,7 @@
   
       <ul
         id="mobile-menu"
-        class="fixed w-[300px] h-[100vh] top-0 right-0 text-lg flex flex-col pt-32 gap-6 items-center z-10 bg-primary lg:pt-0 lg:flex-row lg:flex lg:relative lg:w-auto lg:h-auto lg:bg-opacity-0"
+        class="fixed w-[300px] h-[100vh] top-0 right-0 text-lg flex flex-col pt-32 gap-4 items-center z-10 bg-primary lg:pt-0 lg:flex-row lg:flex lg:relative lg:w-auto lg:h-auto lg:bg-opacity-0"
         class:hidden={!isMenuOpen && !smscr}
         class:menu-open-slide={isMenuOpen}
       >
@@ -107,7 +107,7 @@
         </li>
       </ul>
 
-      <div class=" justify-center items-center gap-3 pb-2 hidden lg:flex">
+      <div class=" justify-center items-center gap-3 hidden mb-1 lg:flex">
         <a href="https://github.com/chrisgbradley" class="">
           <Icon icon="mdi:github" style="font-size: 2.25rem;" inline={true} class="text-accent" />
         </a>
@@ -119,7 +119,7 @@
         </a>
       </div>
       
-      <button class="text-lg border-2 rounded-md px-3 py-1 leading-extra-loose border-accent ml-6 flex justify-center items-center gap-3 hover:bg-accent hover:text-secondary transition-all duration-150 z-20 " class:theme-btn-fix={isMenuOpen} on:click={cycleThemes}><Icon icon="@custom:md:theme" style="font-size: 2.25rem;" inline={true} /> <span class="hidden lg:block">Change Theme</span></button>
+      <button class="text-md border-2 rounded-md px-3 lg:mb-2 leading-extra-loose border-accent ml-6 flex justify-center items-center gap-2 hover:bg-accent hover:text-secondary transition-all duration-150 z-20 " class:theme-btn-fix={isMenuOpen} on:click={cycleThemes}><Icon icon="@custom:md:theme" style="font-size: 2.25rem;" inline={true} /> <span class="hidden lg:block">Change Theme</span></button>
       
 
     </div>
