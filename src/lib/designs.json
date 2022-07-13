@@ -3,182 +3,182 @@
         {
             "index":1,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": "Log In Screen"}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": "Credit Card Checkout"}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": "Landing Page"}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": "Calculator"}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": "App Icon"}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "Log In Screen", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "Credit Card Checkout", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "Landing Page", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "Calculator", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "App Icon", "description": "", "image": ""}]
         },
         {
             "index":2,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": "User Profile"}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": "Settings Page"}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": "404 Page"}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": "Music Player"}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": "Social Share"}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "User Profile", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "Settings Page", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "404 Page", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "Music Player", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "Social Share", "description": "", "image": ""}]
         },
         {
             "index":3,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": "Flash Message"}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "Flash Message", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":4,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":5,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":6,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":7,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":8,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":9,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":10,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":11,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":12,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":13,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":14,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":15,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":16,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":17,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":18,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":19,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         },
         {
             "index":20,
             "designs": [
-                {"thumbnail": {"index": 1, "type": "text", "content": "Day 1", "challenge": ""}},
-                {"thumbnail": {"index": 2, "type": "text", "content": "Day 2", "challenge": ""}},
-                {"thumbnail": {"index": 3, "type": "text", "content": "Day 3", "challenge": ""}},
-                {"thumbnail": {"index": 4, "type": "text", "content": "Day 4", "challenge": ""}},
-                {"thumbnail": {"index": 5, "type": "text", "content": "Day 5", "challenge": ""}}]
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
+                {"index": 5, "url": "", "type": "text", "challenge": "", "description": "", "image": ""}]
         }
     ]
 }
