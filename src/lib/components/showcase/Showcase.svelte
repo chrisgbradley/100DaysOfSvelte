@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { flip } from "svelte/animate";
     import WeekCard from './WeekCard.svelte';
     import {weeks} from "$lib/designs.json";
 
@@ -10,6 +9,6 @@
 <div class="w-full flex flex-row flex-wrap">
   
   {#each weeks as week}
-    <WeekCard {week} animate:flip />
+    <WeekCard {week} />
   {/each}
 </div>
