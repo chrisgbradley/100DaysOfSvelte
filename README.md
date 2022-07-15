@@ -28,14 +28,21 @@ This project allows practice with rapid prototyping, improves knowledge of a fra
 #### Inspiration & Learning
 
 [DailyUI](https://www.dailyui.co)
+
 [Awwwards](https://www.awwwards.com)
+
 [LevelUpTuts](https://www.youtube.com/c/LevelUpTuts)
+
 [DesignCourse](https://www.youtube.com/c/DesignCourse)
+
 [Kevin Powell](https://www.youtube.com/c/kepowob)
 
 #### Tools
 
 [Vercel](https://www.figma.com)
+
 [TailwindCSS](https://svelte.dev)
+
 [Svelte/SvelteKit](https://tailwindcss.com)
+
 [Figma](https://vercel.com/)
