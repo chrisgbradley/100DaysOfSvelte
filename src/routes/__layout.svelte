@@ -26,7 +26,6 @@ import ThemeProvider from '$cmp/theme/ThemeProvider.svelte';
       analyticsId
     });
   }
-
   let isMenuOpen = false
   export let refresh: URL;
 </script>

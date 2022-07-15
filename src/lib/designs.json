@@ -21,7 +21,7 @@
         {
             "index":3,
             "designs": [
-                {"index": 1, "url": "", "type": "text", "challenge": "Flash Message", "description": "", "image": ""},
+                {"index": 1, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
                 {"index": 2, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
                 {"index": 3, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
                 {"index": 4, "url": "", "type": "text", "challenge": "", "description": "", "image": ""},
