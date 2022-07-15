@@ -1,42 +1,41 @@
-# SvelteKit
+# 100 Days of Svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte), deployed to [Vercel](https://vercel.com).
+## A personal challenge to encourage rapid prototyping, better UI design skills, and practice developing experiences.
 
-## Deploy Your Own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmain%2Fexamples%2Fsveltekit&project-name=sveltekit-vercel&repository-name=sveltekit-vercel&demo-title=SvelteKit%20%2B%20Vercel&demo-description=A%20SvelteKit%20app%20optimized%20Edge-first.&demo-url=https%3A%2F%2Fsveltekit-template.vercel.app%2F)
+### The Longer Version
 
-_Live Example: https://sveltekit-template.vercel.app_
+I decided to take the 100 Days of Design from [DailyUI](https://dailyui.co) and push it one step further. Rotating through 10 popular industries, each day a design is crafted to spec for the given prompt, developed using Svelte, and hosted -- currently on Vercel.
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+### The Rules
 
-```bash
-# create a new project in the current directory
-npm init svelte
+- All pages are independent.
+    - This means separate CSS files. Repitition is half of the point of this project.
+- All tools are on the table.
+    - Render however, host whereever, custom or prebuilt components...
+    - As long as Svelte is used and the design matches the concept, go nuts.
+- All pages should be fully responsive.
+- All pages should be fully accessible.
 
-# create a new project in my-app
-npm init svelte my-app
-```
 
-## Developing
+### The Why
 
-Once you've created a project and installed dependencies with `pnpm install`, start a development server:
+This project allows practice with rapid prototyping, improves knowledge of a framework and its community, and provides training wheels for taming the scope monster by applying a faux deadline. In addition to the deadline, the page is already designed, so having the end product already in mind enforces the 'good enough' mentality and encourages you to move on and continue learning.
 
-```bash
-pnpm run dev
+### The Resources
 
-# or start the server and open the app in a new browser tab
-pnpm run dev -- --open
-```
+#### Inspiration & Learning
 
-## Building
+[DailyUI](https://www.dailyui.co)
+[Awwwards](https://www.awwwards.com)
+[LevelUpTuts](https://www.youtube.com/c/LevelUpTuts)
+[DesignCourse](https://www.youtube.com/c/DesignCourse)
+[Kevin Powell](https://www.youtube.com/c/kepowob)
 
-To create a production version of your app:
+#### Tools
 
-```bash
-pnpm run build
-```
-
-You can preview the production build with `npm run preview`.
+[Vercel](https://www.figma.com)
+[TailwindCSS](https://svelte.dev)
+[Svelte/SvelteKit](https://tailwindcss.com)
+[Figma](https://vercel.com/)
